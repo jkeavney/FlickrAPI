@@ -1,0 +1,52 @@
+body {
+	background-image: url(https://d17s4kc6349e5h.cloudfront.net/holidayextras/assets/images/bg/bg-ephemera-white-grey-10.png);
+	background-position: top center;
+	background-size: 600px;
+}
+
+#overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar {
+	background-color: #542e91 !important;
+}
+
+.logo-title {
+	align-self: flex-end;
+	margin-bottom: 1rem;
+	font-size: 28px;
+	color: #fff;
+}
+
+.logo-title span {
+	color: #fedc08;
+}
+
+.page-title-panel {
+	background: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.media-wrap {
+	position: relative;
+	padding-top: 66.666666%;
+	overflow: hidden;
+}
+
+.media-wrap img {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-50%);
+}
